@@ -75,5 +75,3 @@ public class Calculator extends JFrame {
         result.addActionListener(listener);
     }
 }
-
-

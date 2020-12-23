@@ -10,6 +10,6 @@ public class Constants {
     public final static String MULTIPLY = "*";
     public final static String DIVINITY = "/";
     public final static String MODULO = "%";
-    public final static String CALCULATOR = "viev.Calculator";
+    public final static String CALCULATOR = "Calculator";
     public final static String ILLEGAL_ARGUMENT = "Incorrect value second number. Second number should not be 0.";
 }

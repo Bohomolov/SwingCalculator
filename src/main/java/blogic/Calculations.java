@@ -23,6 +23,10 @@ public class Calculations {
     }
 
     public double modulo(double firstNum, double secondNum) {
+        if (secondNum == 0) {
+            throw new IllegalArgumentException(Constants.ILLEGAL_ARGUMENT);
+        }
         return firstNum % secondNum;
+
     }
 }
